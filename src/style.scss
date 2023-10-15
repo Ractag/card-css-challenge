@@ -1,0 +1,34 @@
+main {
+    height: 22rem;
+    width: 14rem;
+    background-color: #000000;
+}
+
+h1 {
+    font-size: 1rem !important;
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.card-powers {
+    margin: 0;
+}
+
+.card-title {
+    text-align: left;
+}
+
+.card-desc {
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+.card-types {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.type {
+    margin: 0;
+}

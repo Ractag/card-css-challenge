@@ -1,35 +1,35 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./style.scss";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <main className="card">
+      <img src="#Guts" alt="" />
+      <div className="card-title">
+        <h1>Warrior: Guts</h1>
+        <p className="card-powers">Strength: ⭐⭐⭐⭐⭐</p>
+        <p className="card-powers">Intel: ⭐⭐⭐⭐⭐</p>
+        <p className="card-powers">Agility:⭐⭐⭐</p>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+      <div className="card-desc">
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          Guts, the protagonist of "Berserk," is a solitary warrior with a
+          brutal destiny. Marked by a massive sword, the Dragon Slayer, he dons
+          black armor and a scar over his right eye. His story is one of a
+          tormented man, battling inner and outer demons in a dark and
+          unforgiving world.
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+      <div className="card-types">
+        <p className="type">Smash: 400</p>
+        <p className="type">Kick: 200</p>
+        <p className="type">Crossbow: 300</p>
+      </div>
+    </main>
+  );
 }
 
-export default App
+export default App;
