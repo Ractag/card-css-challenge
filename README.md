@@ -1,8 +1,7 @@
-# React + Vite
+## Hello ! ##
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+For this challenge, I had to make a react component and stylize it with css.
+As I had much freedom, I decided to create a card that could fit in a mobile phone screen.
+The theme is Berserk, a famous manga. I wanted to re-create an environement that make you 
+feel like you're scrolling in your phone app, looking for a movie, as if you was browsing netflix.
+Enjoy :)

@@ -1,34 +1,53 @@
-main {
-    height: 22rem;
-    width: 14rem;
-    background-color: #000000;
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Noto+Sans&display=swap');
+* {
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.card {
+    height: 26rem;
+    width: 18rem;
+    padding: 0!important;
+    background-color: white;
+    color: black;
+}
+
+.card-title {
+    background-image: url("https://wallpaperwaifu.com/wp-content/uploads/2020/02/guts-berserk-thumb.jpg");
+    background-size: cover;
+    color: white;
 }
 
 h1 {
     font-size: 1rem !important;
     text-align: center;
-    margin: 0 0 1rem 0;
+    padding-top: 0.5rem;
+    margin-bottom: 0;
 }
 
-.card-powers {
-    margin: 0;
-}
-
-.card-title {
+.rate {
     text-align: left;
+    padding: 2rem 0 1rem 1rem;
+    font-size: 0.9rem;
 }
 
 .card-desc {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     text-align: left;
+    margin: 1rem 1rem 0.5rem 1rem;
 }
 
-.card-types {
+.warnings {
+    color: rgb(196, 196, 196);
+}
+
+.footer {
     display: flex;
-    margin: 0;
-    padding: 0;
+    margin: 0.5rem;
+    justify-content: space-between;
 }
 
-.type {
-    margin: 0;
+img {
+    width: 1rem;
+    height: 1rem;
 }
